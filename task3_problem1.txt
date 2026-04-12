@@ -1,0 +1,3 @@
+Overfitting starts around epoch 8–10 where validation loss increases.
+
+Final test accuracy is approximately 97%.
