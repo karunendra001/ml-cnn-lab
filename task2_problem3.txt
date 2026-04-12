@@ -1,0 +1,20 @@
+Task 2 - Problem 3: LeNet-5
+
+(a) Model Summary:
+Total parameters = 44,426
+
+(b) Parameter count (first Conv2D layer):
+Formula:
+(K × K × C_in + 1) × C_out
+
+= (5 × 5 × 1 + 1) × 6
+= (25 + 1) × 6
+= 26 × 6
+= 156
+
+(c) Explanation:
+Average pooling was used in LeNet-5 because it smooths the feature maps and was suitable at that time.
+
+However, max pooling is more common today because it captures the most important features and improves performance.
+
+Therefore, modern CNNs prefer max pooling.
