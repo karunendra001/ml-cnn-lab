@@ -1,0 +1,28 @@
+Task 2 - Problem 2: Output Size Derivation
+
+Formula:
+Output = (N - F + 2P)/S + 1
+
+(a)
+Input = 28, Kernel = 5, Padding = 0, Stride = 1
+Output = (28 - 5 + 0)/1 + 1 = 24
+Final size = 24 x 24
+
+(b)
+Input = 28, Kernel = 3, Padding = 1, Stride = 1
+Output = (28 - 3 + 2)/1 + 1 = 28
+Final size = 28 x 28
+
+(c)
+Input = 32, Kernel = 3, Padding = 0, Stride = 2
+Output = (32 - 3 + 0)/2 + 1 = 15.5 → floor = 15
+Final size = 15 x 15
+
+(d)
+First layer:
+(32 - 3 + 2)/1 + 1 = 32
+
+Second layer:
+(32 - 3 + 0)/1 + 1 = 30
+
+Final size = 30 x 30
